@@ -7,15 +7,16 @@ Este projeto demonstra como fazer operações básicas (GET, POST, PUT, DELETE) 
 
 ### Código
 
+```Python
 import requests
 import json
 
 _id = "66b16b4dea8c604700019a37"
 
-# endpoint PUT & DELETE
-# url = f"https://teste-2078.restdb.io/rest/teste/{_id}"
+#endpoint PUT & DELETE
+#url = f"https://teste-2078.restdb.io/rest/teste/{_id}"
 
-# endpoint GET
+#endpoint GET
 url = "https://teste-2078.restdb.io/rest/teste"
 
 headers = {
@@ -30,9 +31,9 @@ data = json.dumps({
 })
 
 response = requests.get(url, headers=headers)
-# response = requests.post(url, headers=headers, data=data)
-# response = requests.put(url, headers=headers, data=data)
-# response = requests.delete(url, headers=headers)
+#response = requests.post(url, headers=headers, data=data)
+#response = requests.put(url, headers=headers, data=data)
+#response = requests.delete(url, headers=headers)
 
 print(response.status_code)
 print(response.json())
@@ -42,6 +43,8 @@ POST : Adiciona novos dados ao banco de dados.
 PUT : Atualiza dados existentes no banco de dados.
 DELETE : Remove dados do banco de dados.
 O código fornecido está configurado para fazer uma solicitação GET. As linhas de código para POST, PUT e DELETE estão comentadas, mas podem ser descommentadas conforme necessário.
+
+```
 
 ### Como usar
 
