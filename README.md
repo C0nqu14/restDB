@@ -3,7 +3,7 @@
 Este projeto demonstra como fazer operações básicas (GET, POST, PUT, DELETE) em um banco de dados RestDB usando Python. O código de exemplo inclui uma solicitação GET para recuperar dados.
 
 ### Pré-requisitos
-- ![Python 3.8](https://img.shields.io/badge/_Python)
+- Python 3.8
 - Biblioteca requests(pode ser instalada via pip install requests)
 
 ### Código
