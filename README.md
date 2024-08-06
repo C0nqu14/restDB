@@ -3,7 +3,7 @@
 Este projeto demonstra como fazer operações básicas (GET, POST, PUT, DELETE) em um banco de dados RestDB usando Python. O código de exemplo inclui uma solicitação GET para recuperar dados.
 
 ### Pré-requisitos
-- ![Python 3.8](https://img.shields.io/badge/any_text-you_like-blue)
+- !["Python 3.8"](https://img.shields.io/badge/any_text-you_like-blue)
 - Biblioteca requests(pode ser instalada via pip install requests)
 
 ### Código
@@ -42,10 +42,11 @@ print(response.json())
 ```
 ### Descrição
 
-GET : Recupera dados do banco de dados RestDB.
-POST : Adiciona novos dados ao banco de dados.
-PUT : Atualiza dados existentes no banco de dados.
-DELETE : Remove dados do banco de dados.
+1. GET : Recupera dados do banco de dados RestDB.
+2. POST : Adiciona novos dados ao banco de dados.
+3. PUT : Atualiza dados existentes no banco de dados.
+4. DELETE : Remove dados do banco de dados.
+   
 O código fornecido está configurado para fazer uma solicitação GET. As linhas de código para POST, PUT e DELETE estão comentadas, mas podem ser descommentadas conforme necessário.
 
 ### Como usar
